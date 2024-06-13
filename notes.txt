@@ -2,4 +2,5 @@ https://dev.to/numtostr/running-react-and-node-js-in-one-shot-with-docker-3o09
 https://dev.to/andrewbaisden/how-to-use-docker-in-your-node-and-react-applications-597e
 
 //start
+nvm use 18
 docker-compose up
