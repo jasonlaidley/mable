@@ -4,3 +4,7 @@ https://dev.to/andrewbaisden/how-to-use-docker-in-your-node-and-react-applicatio
 //start
 nvm use 18
 docker-compose up
+
+<p>{item.name}</p>
+            <p>{item.age}</p>
+            <p>{item.name}</p>
