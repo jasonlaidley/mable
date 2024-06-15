@@ -1,7 +1,6 @@
 {
     "include": [
-        "./src/*"
-, "src/__tests__/App.test.tsx"    ],
+        "./src/*", "src/__tests__/App.test.tsx"    ],
     "compilerOptions": {
         "lib": [
             "dom",

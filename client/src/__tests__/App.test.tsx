@@ -5,9 +5,9 @@ import DraggableListItem from '../components/DraggableListItem';
 
 const person = {
   id: '1',
-  name: 'John Doe',
-  age: 25,
-  location: 'New York'
+  name: 'Bruce Wayne',
+  age: 40,
+  location: 'Brisbane'
 };
 
 const index = 0;

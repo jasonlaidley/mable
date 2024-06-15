@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
@@ -9,8 +8,10 @@ import Paper from '@mui/material/Paper';
 import { purple } from '@mui/material/colors';
 
 const App = () => {
+  // Store people list
   const [people, setPeople] = useState([]);
 
+  // Define Person type
   type Person = {
     id: string;
     name: string;
@@ -25,29 +26,25 @@ const App = () => {
   }, []);
 
   // Drag and drop
-  const onDragEnd = ({ destination, source }: DropResult) => {
-    // dropped outside the list
+  const onDragEnd = ({destination, source}: DropResult) => {
+    // Dropped outside the list
     if (!destination) {
       return
     };
 
+    // Reorder list
     const newItems = reorder(people, source.index, destination.index);
-
     setPeople(newItems);
   };
 
-  const reorder = (
-    list: Array<Person>,
-    startIndex: number,
-    endIndex: number
-  ) => {
-    const result = Array.from(list);
-    const [removed] = result.splice(startIndex, 1);
+  // Reorder function
+  const reorder = (people: Array<Person>, startIndex: number, endIndex: number) => {
+    const result = people;
+    const [removed] = people.splice(startIndex, 1);
     result.splice(endIndex, 0, removed);
   
     return result;
   };
-  
 
   return (
     <Paper elevation={3} sx={{ margin: '50px auto', maxWidth: 360, bgcolor: purple[100] }}>

@@ -42,7 +42,7 @@ exports[`renders correctly 1`] = `
       <span
         className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
       >
-        John Doe
+        Bruce Wayne
       </span>
       <p
         className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
@@ -50,9 +50,9 @@ exports[`renders correctly 1`] = `
         <span
           className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
         >
-          25
+          40
         </span>
-         - New York
+         - Brisbane
       </p>
     </div>
   </div>
