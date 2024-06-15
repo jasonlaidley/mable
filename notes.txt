@@ -2,9 +2,33 @@ https://dev.to/numtostr/running-react-and-node-js-in-one-shot-with-docker-3o09
 https://dev.to/andrewbaisden/how-to-use-docker-in-your-node-and-react-applications-597e
 
 //start
-nvm use 18
+nvm use 20
 docker-compose up
 
-<p>{item.name}</p>
-            <p>{item.age}</p>
-            <p>{item.name}</p>
+{people.map((person, index) => (
+<div key={person.id}>
+    <p>{person.name}</p>
+    <p>{person.age}</p>
+    <p>{person.location}</p>
+</div>
+))}
+
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "react-jsx"
+    },
+    "include": ["src"]
+  }

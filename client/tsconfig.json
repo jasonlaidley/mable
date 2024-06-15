@@ -1,12 +1,14 @@
 {
     "include": [
         "./src/*"
-    ],
+, "src/__tests__/App.test.tsx"    ],
     "compilerOptions": {
         "lib": [
             "dom",
             "es2015"
         ],
-        "jsx": "react"
+        "jsx": "react",
+        "types": ["node", "jest"],
+        "esModuleInterop": true
     }
 }

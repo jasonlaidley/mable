@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  data-rbd-droppable-context-id="0"
+  data-rbd-droppable-id="droppable"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-divider MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-divider css-15xraz-MuiButtonBase-root-MuiListItemButton-root"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="1"
+    data-rbd-draggable-context-id="0"
+    data-rbd-draggable-id="1"
+    draggable={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onDragStart={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    onTransitionEnd={null}
+    role="button"
+    style={
+      {
+        "transform": null,
+        "transition": null,
+      }
+    }
+    tabIndex={0}
+  >
+    <div
+      className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+      >
+        John Doe
+      </span>
+      <p
+        className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+        >
+          25
+        </span>
+         - New York
+      </p>
+    </div>
+  </div>
+</div>
+`;
