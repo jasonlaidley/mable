@@ -1,19 +1,26 @@
-# Project
-Jason Laidley for Mable / HomeMade
+# Jason Laidley for Mable / HomeMade
 
-# Install Express server
+## Install Express server
+```
 cd server
 npm install
+```
 
-# Install React client
+## Install React client
+```
 cd client
 npm install
+```
 
-# Start
+## Start
+```
 cd ..
 nvm use 20
 docker-compose up
+```
 
-# Test client
+## Test client
+```
 cd client
 npm run test
+```
